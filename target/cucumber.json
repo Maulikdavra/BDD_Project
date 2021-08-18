@@ -1,0 +1,310 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1282041100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Techfios login page",
+            "match": {
+              "location": "LoginSteps.User_is_on_the_Techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2352374600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.beforeTest()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "1 User should able to login with valid credentials",
+        "description": "",
+        "id": "validate-techfios-login-functionality;1-user-should-able-to-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 715151900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 222803500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"demo@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 13
+                },
+                {
+                  "val": "abc123",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginSteps.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1707314700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on sigin button",
+            "match": {
+              "location": "LoginSteps.user_clicks_on_sigin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11279500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User should land on Dashboard page",
+            "match": {
+              "location": "LoginSteps.user_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102655000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should able to click on Bank and Cash option on dashboard",
+            "match": {
+              "location": "LoginSteps.User_should_able_to_click_on_Bank_and_Cash_option_on_dashboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 779389400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should able to click on New Account element under Bank and Cash element",
+            "match": {
+              "location": "LoginSteps.User_should_able_to_click_on_New_Account_element_under_Bank_and_Cash_element()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100034300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be able to enter data in Account Title field \"MD\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "MD",
+                  "offset": 58
+                }
+              ],
+              "location": "LoginSteps.user_should_be_able_to_enter_data_in_Account_Title_field(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 95786300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be able to enter data in Description feild \"xyz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz",
+                  "offset": 56
+                }
+              ],
+              "location": "LoginSteps.user_should_be_able_to_enter_data_in_Description_feild(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 137046800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User should be able to enter data in Intial Balance field \"200\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 59
+                }
+              ],
+              "location": "LoginSteps.user_should_be_able_to_enter_data_in_Intial_Balance_field(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97265800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should be able to enter data in Account Number field \"232\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "232",
+                  "offset": 59
+                }
+              ],
+              "location": "LoginSteps.user_should_be_able_to_enter_data_in_Account_Number_field(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110488100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User should be able to enter data in Contact Person field \"Maulik\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Maulik",
+                  "offset": 59
+                }
+              ],
+              "location": "LoginSteps.user_should_be_able_to_enter_data_in_Contact_Person_field(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86101800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User should be able to enter data in Contact Phone field \"9720101\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9720101",
+                  "offset": 58
+                }
+              ],
+              "location": "LoginSteps.user_should_be_able_to_enter_data_in_Contact_Phone_field(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5104546900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User should be able to enter data in Banking Url field \"www.BOFA.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "www.BOFA.com",
+                  "offset": 56
+                }
+              ],
+              "location": "LoginSteps.user_should_be_able_to_enter_data_in_Banking_Url_field(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4587162300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should be able to click on Submit button",
+            "match": {
+              "location": "LoginSteps.user_should_be_able_to_click_on_Submit_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@loginFeature"
+          }
+        ]
+      }
+    ],
+    "name": "validate Techfios login functionality",
+    "description": "",
+    "id": "validate-techfios-login-functionality",
+    "keyword": "Feature",
+    "uri": "features/TF_login.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@loginFeature"
+      }
+    ]
+  }
+]
